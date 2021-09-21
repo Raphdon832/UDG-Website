@@ -1,95 +1,95 @@
-body{
-    background-color: black;
-    margin: auto;
-    width: 100%;
-    overflow-x: hidden;
+body {
+  background-color: black;
+  margin: auto;
+  width: 100%;
+  overflow-x: hidden;
 }
-.navbackground{
-    background-color: black;
+.navbackground {
+  background-color: black;
 }
-.nav-item{
-    color: white;
-}
-
-.HeaderText{
-    color: white;
-    margin-left: 1rem;
-    margin-top: -2rem;
-    line-height: 1;
-    width: 17rem;
-    font-size: 40px;
-
+.nav-item {
+  color: white;
 }
 
-.HeaderInfo{
-    color: white;
-    margin-left: 1rem;
-    margin-top: 2rem;
-    line-height: 1;
-    width: 17rem;
-    font-size: 12px;
-    line-height: 1.5rem;
-
-}
-.bigText{
-
-    margin-top: 5rem;
-    width: auto;
+.HeaderText {
+  color: white;
+  margin-left: 1rem;
+  margin-top: -2rem;
+  line-height: 1;
+  width: 17rem;
+  font-size: 40px;
 }
 
-.bannerImage{
-    width: 18rem;
-    height: 30rem;
-    margin-left:1rem;
-    margin-top: -2rem;
-    /* margin-right: 3rem; */
+.HeaderInfo {
+  color: white;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  line-height: 1;
+  width: 17rem;
+  font-size: 12px;
+  line-height: 1.5rem;
+}
+.bigText {
+  margin-top: 5rem;
+  width: auto;
 }
 
-.BannerImageClass{
-    width: auto;
+.bannerImage {
+  width: 22rem;
+  height: 25rem;
+  margin-left: -1rem;
+  margin-top: -1rem;
+  /* margin-right: 3rem; */
 }
 
-.fluidContain{
-    width: 100%;
+.BannerImageClass {
+  width: auto;
 }
 
-.seeMoreButton{
-    position: absolute;
-width: 100px;
-height: 42.58px;
-margin-left: 1rem;
-margin-top: -1rem;
+.fluidContain {
+  width: 100%;
 }
 
+.seeMoreButton {
+  /* position: absolute; */
+  width: 100px;
+  height: 42.58px;
+  margin-left: 1rem;
+  margin-top: -1rem;
+}
 
-
+/* .navbar {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(17px);
+  position: fixed !important;
+} */
 
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { body{
+@media (min-width: 576px) {
+  body {
     background-color: black;
     margin: auto;
-}
-.navbackground{
+  }
+  .navbackground {
     background-color: black;
-}
-.nav-item{
+  }
+  .nav-item {
     color: white;
-}
+  }
 
-.HeaderText{
+  .HeaderText {
     color: white;
     margin-left: 8rem;
     margin-top: 4rem;
     line-height: 1;
     width: 40rem;
     font-size: 70px;
+  }
 
-}
-
-.HeaderInfo{
+  .HeaderInfo {
     color: white;
     margin-left: 8rem;
     margin-top: 2rem;
@@ -97,42 +97,41 @@ margin-top: -1rem;
     width: 30rem;
     font-size: 18px;
     line-height: 1.5rem;
-
-}
-.bigText{
-
+  }
+  .bigText {
     margin-top: 5rem;
-}
+  }
 
-.bannerImage{
+  .bannerImage {
     width: auto;
     height: 43.7rem;
     margin-left: 1rem;
-} }
+  }
+}
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { body{
+@media (min-width: 768px) {
+  body {
     background-color: black;
     margin: auto;
-}
-.navbackground{
+  }
+  .navbackground {
     background-color: black;
-}
-.nav-item{
+  }
+  .nav-item {
     color: white;
-}
+  }
 
-.HeaderText{
+  .HeaderText {
     color: white;
     margin-left: 8rem;
     margin-top: 4rem;
     line-height: 1;
     width: 40rem;
     font-size: 70px;
+  }
 
-}
-
-.HeaderInfo{
+  .HeaderInfo {
     color: white;
     margin-left: 8rem;
     margin-top: 2rem;
@@ -140,42 +139,41 @@ margin-top: -1rem;
     width: 30rem;
     font-size: 18px;
     line-height: 1.5rem;
-
-}
-.bigText{
-
+  }
+  .bigText {
     margin-top: 5rem;
-}
+  }
 
-.bannerImage{
+  .bannerImage {
     width: auto;
     height: 43.7rem;
     margin-left: 1rem;
-} }
+  }
+}
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { body{
+@media (min-width: 992px) {
+  body {
     background-color: black;
     margin: auto;
-}
-.navbackground{
+  }
+  .navbackground {
     background-color: black;
-}
-.nav-item{
+  }
+  .nav-item {
     color: white;
-}
+  }
 
-.HeaderText{
+  .HeaderText {
     color: white;
     margin-left: 8rem;
     margin-top: 4rem;
     line-height: 1;
     width: 40rem;
     font-size: 70px;
+  }
 
-}
-
-.HeaderInfo{
+  .HeaderInfo {
     color: white;
     margin-left: 8rem;
     margin-top: 2rem;
@@ -183,122 +181,167 @@ margin-top: -1rem;
     width: 30rem;
     font-size: 18px;
     line-height: 1.5rem;
-
-}
-.bigText{
-
+  }
+  .bigText {
     margin-top: 5rem;
-}
+  }
 
-.bannerImage{
+  .bannerImage {
     width: auto;
     height: 43.7rem;
     margin-left: 1rem;
-} }
+  }
+
+  .navbar {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(17px);
+    position: fixed !important;
+  }
+}
 
 /* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-    body{
-        background-color: black;
-        margin: auto;
-    }
-    .navbackground{
-        background-color: black;
-    }
-    .nav-item{
-        color: white;
-    }
-    
-    .HeaderText{
-        color: white;
-        margin-left: 8rem;
-        margin-top: 4rem;
-        line-height: 1;
-        width: 40rem;
-        font-size: 70px;
-    
-    }
-    
-    .HeaderInfo{
-        color: white;
-        margin-left: 8rem;
-        margin-top: 2rem;
-        line-height: 1;
-        width: 30rem;
-        font-size: 18px;
-        line-height: 1.5rem;
-    
-    }
-    .bigText{
-    
-        margin-top: 5rem;
-    }
-    
-    .bannerImage{
-        width: auto;
-        height: 43.7rem;
-        margin-left: 1rem;
-        margin-top: auto;
-    }
+@media (min-width: 1200px) {
+  body {
+    background-color: black;
+    margin: auto;
+  }
+  .navbackground {
+    background-color: black;
+  }
+  .nav-item {
+    color: white;
+  }
 
-    .seeMoreButton{
-        position: absolute;
+  .HeaderText {
+    color: white;
+    margin-left: 8rem;
+    margin-top: 4rem;
+    line-height: 1;
+    width: 40rem;
+    font-size: 70px;
+  }
+
+  .HeaderInfo {
+    color: white;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    line-height: 1;
+    width: 30rem;
+    font-size: 18px;
+    line-height: 1.5rem;
+  }
+  .bigText {
+    margin-top: 5rem;
+  }
+
+  .bannerImage {
+    width: auto;
+    height: 43.7rem;
+    margin-left: 1rem;
+    margin-top: auto;
+  }
+
+  .seeMoreButton {
+    /* position: absolute; */
     width: 152.78px;
     height: 42.58px;
     margin-left: 7.5rem;
-    }
-
-  
- }
+  }
+}
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) { body{
+@media (min-width: 1400px) {
+  body {
     background-color: black;
     margin: auto;
-}
-.navbackground{
+  }
+  .navbackground {
     background-color: black;
-}
-.nav-item{
+  }
+  .nav-item {
     color: white;
-}
+  }
 
-.HeaderText{
+  .HeaderText {
     color: white;
     margin-left: 8rem;
-    margin-top: 4rem;
+    margin-top: 6rem;
     line-height: 1;
     width: 40rem;
-    font-size: 70px;
+    font-size: 90px;
+    font-weight: bolder;
+  }
 
-}
-
-.HeaderInfo{
-    color: white;
+  .HeaderInfo {
+    color: rgb(94, 94, 94);
     margin-left: 8rem;
     margin-top: 2rem;
     line-height: 1;
-    width: 30rem;
-    font-size: 18px;
-    line-height: 1.5rem;
-
-}
-.bigText{
-
+    width: 40rem;
+    font-size: 27px;
+    line-height: 2rem;
+  }
+  .bigText {
     margin-top: 5rem;
-}
+  }
 
-.bannerImage{
+  .bannerImage {
     width: auto;
-    height: 43.7rem;
+    height: 60rem;
     margin-left: 1rem;
-} 
-.seeMoreButton{
-    position: absolute;
-width: 152.78px;
-height: 42.58px;
-margin-left: 7.5rem;
-}
+    margin-top: 4rem;
+  }
+  .seeMoreButton {
+    /* position: absolute; */
+    width: 152.78px;
+    height: 42.58px;
+    margin-left: 7.5rem;
+  }
 
+  .navbar-brand {
+    margin-left: 4rem;
+  }
 
+  .navbar-text {
+    margin-right: 4rem;
+    /* width: 20px; */
+    padding-left: 73rem;
+  }
+
+  .navbar {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(17px);
+    position: fixed;
+  }
+
+  .AboutUsHeaderText {
+    font-size: 90px;
+    color: white;
+    font-weight: bolder;
+  }
+
+  .AboutUsSection {
+    color: rgb(95, 95, 95);
+    margin-left: 66rem;
+    margin-top: -35rem;
+    line-height: -normal;
+    width: 40rem;
+    font-size: 27px;
+    line-height: 2rem;
+    /* font-family: poppins; */
+  }
+
+  .AboutUsImage {
+    margin-top: 10rem;
+    margin-left: 6rem;
+    width: 43rem;
+    height: 43rem;
+  }
+
+  .OurPartnersText {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 40rem;
+  }
 }
