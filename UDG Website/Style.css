@@ -51,24 +51,13 @@ body {
 }
 
 .seeMoreButton {
-  /* position: absolute; */
   width: 100px;
   height: 42.58px;
   margin-left: 1rem;
   margin-top: -1rem;
 }
 
-/* .navbar {
-  background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(17px);
-  position: fixed !important;
-} */
-
-/* // X-Small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap */
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media (min-width: 360px) {
   body {
     background-color: black;
     margin: auto;
@@ -109,7 +98,9 @@ body {
   }
 }
 
-/* // Medium devices (tablets, 768px and up) */
+
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 768px) {
   body {
     background-color: black;
@@ -124,147 +115,7 @@ body {
 
   .HeaderText {
     color: white;
-    margin-left: 8rem;
-    margin-top: 4rem;
-    line-height: 1;
-    width: 40rem;
-    font-size: 70px;
-  }
-
-  .HeaderInfo {
-    color: white;
-    margin-left: 8rem;
-    margin-top: 2rem;
-    line-height: 1;
-    width: 30rem;
-    font-size: 18px;
-    line-height: 1.5rem;
-  }
-  .bigText {
-    margin-top: 5rem;
-  }
-
-  .bannerImage {
-    width: auto;
-    height: 43.7rem;
-    margin-left: 1rem;
-  }
-}
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  body {
-    background-color: black;
-    margin: auto;
-  }
-  .navbackground {
-    background-color: black;
-  }
-  .nav-item {
-    color: white;
-  }
-
-  .HeaderText {
-    color: white;
-    margin-left: 8rem;
-    margin-top: 4rem;
-    line-height: 1;
-    width: 40rem;
-    font-size: 70px;
-  }
-
-  .HeaderInfo {
-    color: white;
-    margin-left: 8rem;
-    margin-top: 2rem;
-    line-height: 1;
-    width: 30rem;
-    font-size: 18px;
-    line-height: 1.5rem;
-  }
-  .bigText {
-    margin-top: 5rem;
-  }
-
-  .bannerImage {
-    width: auto;
-    height: 43.7rem;
-    margin-left: 1rem;
-  }
-
-  .navbar {
-    background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(17px);
-    position: fixed !important;
-  }
-}
-
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  body {
-    background-color: black;
-    margin: auto;
-  }
-  .navbackground {
-    background-color: black;
-  }
-  .nav-item {
-    color: white;
-  }
-
-  .HeaderText {
-    color: white;
-    margin-left: 8rem;
-    margin-top: 4rem;
-    line-height: 1;
-    width: 40rem;
-    font-size: 70px;
-  }
-
-  .HeaderInfo {
-    color: white;
-    margin-left: 8rem;
-    margin-top: 2rem;
-    line-height: 1;
-    width: 30rem;
-    font-size: 18px;
-    line-height: 1.5rem;
-  }
-  .bigText {
-    margin-top: 5rem;
-  }
-
-  .bannerImage {
-    width: auto;
-    height: 43.7rem;
-    margin-left: 1rem;
-    margin-top: auto;
-  }
-
-  .seeMoreButton {
-    /* position: absolute; */
-    width: 152.78px;
-    height: 42.58px;
-    margin-left: 7.5rem;
-  }
-}
-
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-  body {
-    background-color: black;
-    margin: auto;
-  }
-  .navbackground {
-    background-color: black;
-  }
-  .nav-item {
-    color: white;
-  }
-
-  .HeaderText {
-    color: white;
-    margin-left: 8rem;
+    margin-left: 12rem;
     margin-top: 6rem;
     line-height: 1;
     width: 40rem;
@@ -274,7 +125,7 @@ body {
 
   .HeaderInfo {
     color: rgb(94, 94, 94);
-    margin-left: 8rem;
+    margin-left: 12rem;
     margin-top: 2rem;
     line-height: 1;
     width: 40rem;
@@ -295,7 +146,7 @@ body {
     /* position: absolute; */
     width: 152.78px;
     height: 42.58px;
-    margin-left: 7.5rem;
+    margin-left: 12rem;
   }
 
   .navbar-brand {
@@ -322,7 +173,7 @@ body {
 
   .AboutUsSection {
     color: rgb(95, 95, 95);
-    margin-left: 66rem;
+    margin-left: 69rem;
     margin-top: -35rem;
     line-height: -normal;
     width: 40rem;
@@ -333,7 +184,7 @@ body {
 
   .AboutUsImage {
     margin-top: 10rem;
-    margin-left: 6rem;
+    margin-left: 13rem;
     width: 43rem;
     height: 43rem;
   }
@@ -343,5 +194,31 @@ body {
     color: white;
     text-align: center;
     margin-top: 40rem;
+  }
+
+  /* .videoBackground{
+    color: aliceblue;
+  } */
+
+  .Partners1{
+    width: 40rem;
+    height: 13rem;
+    margin-left: 19rem;
+    margin-top: 5rem;
+    /* align-content: center; */
+    /* border-radius: 100%; */
+    /* background-color: white; */
+  }
+
+  .ProjectsText{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 25rem;
+  }
+
+  .ProjectVideo{
+    margin-top: 4rem;
+    border-radius: 25px;
   }
 }
